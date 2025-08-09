@@ -1,5 +1,5 @@
 # Github-JIRA-intergration-Project
-This repo helps you to automate to create story  in Jira when a issue in github
+This repo helps you to automation for create story in Jira when a issue in github
 
 DESCRIPTION:
 This project automates the process of creating a JIRA story whenever a specific command (/jira) is posted in a GitHub issue comment. It uses a Flask-based webhook receiver that listens for GitHub issue events, processes the comment body, and triggers JIRA's REST API to create a new story in the specified project. The integration eliminates the need for manual task creation in JIRA, ensuring faster workflow automation and improved collaboration between development and project management teams
