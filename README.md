@@ -8,6 +8,7 @@ This project automates the process of creating a JIRA story whenever a specific 
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/Github-JIRA-Integration-Project.git
 cd Github-JIRA-Integration-Project
 
@@ -20,6 +21,7 @@ Replace placeholders in the script with your own details:
 
 API_TOKEN = "YOUR_JIRA_API_TOKEN"
 auth = HTTPBasicAuth("YOUR_JIRA_EMAIL", API_TOKEN)
+
 API Token: Generate from your Atlassian Account Settings.
 
 Project Key: Replace "FP" in the payload with your JIRA project key.
@@ -33,6 +35,7 @@ Click "Add webhook".
 
 Set Payload URL:
 http://<YOUR_SERVER_PUBLIC_IP>:5000/createJIRA
+
 Content type: application/json.
 
 Select "Let me select individual events" → Check Issue comments.
